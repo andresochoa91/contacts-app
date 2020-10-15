@@ -7,7 +7,6 @@ class  V1::SessionsController < ApplicationController
     else
       head(:unauthorized)
     end
-
   end
 
   def destroy
